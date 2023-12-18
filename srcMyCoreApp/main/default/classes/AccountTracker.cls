@@ -1,6 +1,6 @@
 public class AccountTracker {
     public static Account setDefaultDescription(Account a) {
-        a.Description = 'Default Test description';
+        a.Description = 'Default description';
         return a;
     }
 }
