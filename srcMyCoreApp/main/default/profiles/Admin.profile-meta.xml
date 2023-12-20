@@ -73,6 +73,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__LookupQuery__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__PriceAction__c.Copado_External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -106,6 +111,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Product2-Formato de productos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
