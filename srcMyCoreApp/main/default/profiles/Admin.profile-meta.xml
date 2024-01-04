@@ -33,7 +33,62 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.LinkedIn__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Pricebook2.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PricebookEntry.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__LookupQuery__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceAction__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceCondition__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceRule__c.Copado_External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -41,6 +96,33 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Formato de oportunidades</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pricebook2-Price Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PricebookEntry-Price Book Entry</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Formato de productos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
