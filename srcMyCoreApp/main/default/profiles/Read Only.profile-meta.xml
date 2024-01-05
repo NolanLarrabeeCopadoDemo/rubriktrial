@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
-    <classAccesses>
-        <apexClass>barneyTestTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CopadoUseCaseClone_Test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MyClass1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>AccountAutomations</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>devclasstest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountTrackerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CopadoUseCase</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DevTrackerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>devclass</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperationsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>barneyTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -50,15 +9,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>DevTracker</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountTracker</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperations</apexClass>
+        <apexClass>CopadoUseCase</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -66,7 +17,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCaseClone</apexClass>
+        <apexClass>MyClass1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -74,11 +25,6 @@
         <editable>false</editable>
         <field>Account.COE__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Copado_Checkbox__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -101,21 +47,17 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account_Setting__mdt-Account Setting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true" />
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
