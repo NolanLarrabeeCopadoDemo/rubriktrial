@@ -20,8 +20,12 @@
                 <field>SBQQ__ConditionsMet__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Copado_External_ID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Ready_for_Deployment__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
