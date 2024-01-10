@@ -19,13 +19,14 @@
         <label>Step 1</label>
         <name>Step_1</name>
     </approvalStep>
+    <description>updated AP1</description>
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
     <entryCriteria>
         <formula>true</formula>
     </entryCriteria>
     <finalApprovalRecordLock>true</finalApprovalRecordLock>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
-    <label>Account-AP1</label>
+    <label>Account-AP11</label>
     <processOrder>0</processOrder>
     <recordEditability>AdminOnly</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>
