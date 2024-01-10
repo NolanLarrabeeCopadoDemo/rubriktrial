@@ -6,5 +6,6 @@ public class CopadoUseCase{
         Account accountIns = new Account();
         accountIns.Copado_Checkbox__c = false;
         String testMergeConflict;
+        String testMergeConflict1;
     }
 }
