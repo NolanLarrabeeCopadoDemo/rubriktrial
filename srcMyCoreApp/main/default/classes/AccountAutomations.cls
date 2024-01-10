@@ -23,7 +23,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.hotfix.com'; 
+        a.website = 'www.hotfix2.com'; 
         return a;
     }
 }
