@@ -21,4 +21,11 @@
         <shortDescription>TEST-Princy</shortDescription>
         <value>test Copado-Princy</value>
     </labels>
+    <labels>
+        <fullName>Test_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test Label</shortDescription>
+        <value>test value</value>
+    </labels>
 </CustomLabels>
