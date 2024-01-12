@@ -22,19 +22,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>DevTracker</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountTrackerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCase</apexClass>
+        <apexClass>DevTracker</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountTracker</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoUseCase</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -52,19 +52,19 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.COE__c</field>
+        <field>Contact.LinkedIn__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.LinkedIn__c</field>
+        <field>Account.COE__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+        <layout>test__mdt-test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
