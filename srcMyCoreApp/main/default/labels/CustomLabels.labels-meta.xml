@@ -14,4 +14,11 @@
         <shortDescription>CL2</shortDescription>
         <value>test2</value>
     </labels>
+    <labels>
+        <fullName>Test_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test Label</shortDescription>
+        <value>test value</value>
+    </labels>
 </CustomLabels>
