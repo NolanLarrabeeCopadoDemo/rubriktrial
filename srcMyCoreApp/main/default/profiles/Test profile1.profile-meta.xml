@@ -2,39 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
-        <apexClass>AccountAutomations</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountAutomationsTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperations</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperationsTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountTracker</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountTrackerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>Class2</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CopadoUseCase</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CopadoUseCaseClone</apexClass>
+        <apexClass>barneyTestTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -42,35 +10,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCase_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DevTracker</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DevTrackerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>MyClass1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>TestVSCodeSetup</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>barneyTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>barneyTestTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>devclass</apexClass>
+        <apexClass>AccountAutomations</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -78,15 +22,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>testCopadoClass</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>testclass1</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>trial12</apexClass>
+        <apexClass>trial23</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -94,7 +30,71 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>trial23</apexClass>
+        <apexClass>trial12</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountTrackerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoUseCase</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DevTrackerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>testCopadoClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>devclass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperationsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestVSCodeSetup</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Class2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>barneyTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountAutomationsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DevTracker</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountTracker</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>testclass1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoUseCase_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoUseCaseClone</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -154,31 +154,31 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account_Setting__mdt-Account Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Formato de casos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Formato de Cerrar caso</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Formato de contactos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
+        <layout>test__mdt-test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Formato de contactos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Formato de Cerrar caso</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Formato de casos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
