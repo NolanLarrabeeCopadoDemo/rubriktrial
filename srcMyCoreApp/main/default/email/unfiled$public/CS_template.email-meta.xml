@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>test Subject</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CS_template</name>
+    <style>none</style>
+    <subject>[Your Company/Project Name] - [Brief Description]  {!Case.SuppliedEmail}</subject>
+    <textOnly>Dear [Recipient&apos;s Name],  I hope this email finds you well. I wanted to bring your attention to [specific topic or purpose of the email]. In light of recent developments, we are [taking a particular action, providing information, requesting feedback, etc.].  [Include any relevant details, key points, or necessary information.]  We appreciate your [cooperation/feedback/attention] on this matter. If you have any questions or require further clarification, please feel free to reach out.  Thank you for your time and cooperation.  Best regards,  [Your Full Name] [Your Position] [Your Company] [Contact Information]</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
