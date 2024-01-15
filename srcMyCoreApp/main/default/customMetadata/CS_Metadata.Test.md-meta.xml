@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Test</label>
+    <protected>false</protected>
+    <values>
+        <field>Bool__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Date__c</field>
+        <value xsi:type="xsd:date">2024-01-31</value>
+    </values>
+    <values>
+        <field>Phone__c</field>
+        <value xsi:type="xsd:string">99999999999</value>
+    </values>
+    <values>
+        <field>Text_long__c</field>
+        <value xsi:type="xsd:string">Want to make reading content online easier…and faster?
+
+Brave’s Speedreader feature can help with both, by automatically removing nonessential elements from the webpage. It’s a clean and efficient way to read, get what you need, and get on with your day.
+
+Want to try speedreader? Just open an article in Brave, and click the speedreader icon Brave speedreader icon that appears beside the URL in the address bar.</value>
+    </values>
+    <values>
+        <field>URL__c</field>
+        <value xsi:type="xsd:string">www.test.com</value>
+    </values>
+</CustomMetadata>
