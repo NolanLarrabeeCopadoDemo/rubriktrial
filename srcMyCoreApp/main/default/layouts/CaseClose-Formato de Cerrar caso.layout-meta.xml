@@ -26,6 +26,10 @@
                 <behavior>Edit</behavior>
                 <field>CS_URL__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CS_Bool__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
