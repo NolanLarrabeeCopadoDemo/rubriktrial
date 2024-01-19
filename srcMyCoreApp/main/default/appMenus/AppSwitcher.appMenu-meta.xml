@@ -160,4 +160,8 @@
         <name>Partner Community</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Partner New</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>
