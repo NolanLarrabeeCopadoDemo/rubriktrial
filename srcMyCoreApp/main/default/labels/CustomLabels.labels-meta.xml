@@ -15,6 +15,20 @@
         <value>test2</value>
     </labels>
     <labels>
+        <fullName>Custom_Label_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Label 1</shortDescription>
+        <value>test label AG</value>
+    </labels>
+    <labels>
+        <fullName>Custom_label_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom label 2</shortDescription>
+        <value>New custom label 2</value>
+    </labels>
+    <labels>
         <fullName>Test_Label</fullName>
         <language>en_US</language>
         <protected>false</protected>
