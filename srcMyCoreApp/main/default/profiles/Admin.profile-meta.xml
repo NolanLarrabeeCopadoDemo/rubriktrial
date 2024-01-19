@@ -127,14 +127,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>CS_Metadata__mdt.Bool__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Subject</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CS_Metadata__mdt.Bool__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -173,12 +173,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SBQQ__PriceRule__c.Ready_for_Deployment__c</field>
+        <field>SG_POC_Object__c.SG_POC_Field_3__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SG_POC_Object__c.SG_POC_Field_3__c</field>
+        <field>SBQQ__PriceRule__c.Ready_for_Deployment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -233,13 +233,13 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.BusinessHoursId</field>
-        <readable>false</readable>
+        <field>Case.ClosedDate</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.ClosedDate</field>
-        <readable>true</readable>
+        <field>Case.BusinessHoursId</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -263,7 +263,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Copado_Checkbox__c</field>
+        <field>Case.SR__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -273,7 +273,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.SR__c</field>
+        <field>Account.Copado_Checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -297,14 +297,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.COE__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Case.SourceId</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.COE__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -312,14 +312,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.StopStartDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>SG_POC_Object__c.SG_POC_Field_1__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.StopStartDate</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -348,13 +348,13 @@
         <layout>Account_Setting__mdt-Account Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+        <layout>test__mdt-test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CS_Metadata__mdt-CS Metadata Layout</layout>
@@ -369,10 +369,10 @@
         <layout>CaseClose-Formato de Cerrar caso</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>Case-Formato de casos</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Formato de casos</layout>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
