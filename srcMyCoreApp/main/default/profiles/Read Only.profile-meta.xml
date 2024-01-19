@@ -2,11 +2,11 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
-        <apexClass>barneyTestTest</apexClass>
+        <apexClass>CopadoUseCaseClone_Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCaseClone_Test</apexClass>
+        <apexClass>barneyTestTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -62,17 +62,32 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCase_Test</apexClass>
+        <apexClass>CopadoUseCaseClone</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCaseClone</apexClass>
+        <apexClass>CopadoUseCase_Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.LinkedIn__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.COE__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account_Setting__mdt.Account_Setting_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account_Setting__mdt.Account_Email__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -85,29 +100,14 @@
         <field>Account.Dummy__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account_Setting__mdt.Account_Email__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account_Setting__mdt.Account_Setting_Number__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.LinkedIn__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
     <layoutAssignments>
         <layout>Account_Setting__mdt-Account Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+        <layout>test__mdt-test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
@@ -116,6 +116,11 @@
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Sales_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

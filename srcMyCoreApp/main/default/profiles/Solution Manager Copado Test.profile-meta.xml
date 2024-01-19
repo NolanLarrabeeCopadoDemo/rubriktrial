@@ -22,19 +22,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>DevTracker</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountTrackerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CopadoUseCase</apexClass>
+        <apexClass>DevTracker</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountTracker</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoUseCase</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -52,6 +52,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.LinkedIn__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.COE__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -60,30 +65,30 @@
         <field>Case.SR__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.LinkedIn__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Formato de casos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Formato de Cerrar caso</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Formato de contactos</layout>
+        <layout>test__mdt-test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-copado__User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
+        <layout>Contact-Formato de contactos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Formato de Cerrar caso</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Formato de casos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Sales_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
